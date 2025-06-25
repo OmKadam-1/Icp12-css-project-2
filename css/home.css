@@ -1,0 +1,101 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-logo{
+    width: 150px;
+    /* margin-right: 100px; */
+    /* margin-left:80px; */
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 25px rgb(55, 55, 55);
+    height: 125px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+
+.pages {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 15px;
+    color: #707070;
+    display: inline-block;
+
+}
+.login-page {
+    text-decoration: none;
+    font-size: 20px;
+    /* margin: 0px 0px; */
+    color: #707070;
+    display: inline-block;
+}
+
+.login-page:hover{
+    color: #19c880;
+    border-bottom: 1px solid #19c880;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.pages:hover{
+    color: #19c880;
+    border-bottom: 1px solid #19c880;
+    transition:all 0.2s ease-in-out 0s;
+    
+}
+
+.login {
+
+    background-color: #e8ebea;
+    padding: 5px 15px;
+    border: 1px solid #f5fffa;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 30px #19c880; */
+    
+}
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: 0px 0px; */
+    
+}
+.search-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.input-box{
+    margin-left: 5px;
+    border: none;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    height: 30px;
+    padding-left: 10px;
+    outline: #707070;
+    color: #707070;
+    width: 200px;
+
+}
+
+
+
+.input-box:hover{
+    color: #19c880;
+    border: 1px solid #19c880;
+    transition: 0.2s;
+}
+
