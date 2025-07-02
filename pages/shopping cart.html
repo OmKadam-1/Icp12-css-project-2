@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shopping cart</title>
+</head>
+    <body>
+  <div class="cart-container">
+    <h1>Shopping Cart</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <hr>
+         <tr>
+          <td class="product-info">
+            <img src="C:\Users\rajup\OneDrive\Desktop\Icp12-css-project-2\images\shirt1.jpeg" alt="T-shirt">
+           <span>T-Shirt</span>
+          </td>
+          <td class="quantity">
+            <button>-</button>
+            <input type="text" value="1" readonly />
+            <button>+</button>
+          </td>
+          <td>₹349</td>
+        </tr>
+        <tr>
+            <td class="product-info">
+            <img src="C:\Users\rajup\OneDrive\Desktop\Icp12-css-project-2\images\shoes2.jpeg"alt="Shoes" />
+            <span>Shoes</span>
+          </td>
+          <td class="quantity">
+            <button>-</button>
+            <input type="text" value="1" readonly />
+            <button>+</button>
+          </td>
+          <td>₹ 799</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+     <div class="coupon-section">
+      <input type="text" placeholder="Coupon code" />
+      <button class="apply-btn">Apply Coupon</button>
+    </div>
+
+    <div class="totals">
+      <p><span>Subtotal</span><span>&nbsp;₹1,148</span></p>
+      <p><span>Total</span><span>&nbsp;₹1,148</span></p>
+    </div>
+
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </div>
+</body>
+</html>
