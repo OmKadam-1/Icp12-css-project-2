@@ -161,7 +161,6 @@ body {
         position: static;
     }
 
-
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -206,6 +205,19 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #f2f1f1;
         margin-top: 23px;
+    }
+
+    
+    .search-container:hover {
+      width: 200px;
+      border-color: #19c880;
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+      border: 2px solid #19c880;
+      border-radius: 25px;
+      margin-top: 20px;
+
     }
 }
 
