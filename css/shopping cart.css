@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  padding: 20px;
+}
+.cart-container {
+  max-width: 600px;
+  margin: auto;
+  background: rgb(154, 19, 19);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(79, 3, 3, 0.1);
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.quantity button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.quantity input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.coupon-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.coupon-section input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.apply-btn {
+  background: #e0e0e0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.totals {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.totals p {
+  margin: 5px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-btn {
+  width: 300px;
+  background: #038d3c;
+  color: tomato;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
