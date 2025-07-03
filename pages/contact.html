@@ -1,125 +1,117 @@
 <!doctype html>
 <html>
-    <head>
-    <title>contact</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <body>
-         <div style="height: 90px;">
-      <body>
 
-    <header>
-        <div class="navbar">
-            <img src="./../images/logo_grey.jpg" alt="logo" width="200px">
-        <div class="container">
-            <h1>Contact Style Hub</h1>
-            <p> Reach out for inquiries, feedback,or collaborations.</p><br>
-           <div class="menubar">
-                <input class="input-box" type="text" placeholder="Search"><br><br>
-                <a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#">Men's Fashion</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#">Women's Fashion</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href="#">Login/Register</a><br><br>
-            
-            <div class="contact-wrapper">
-                <form class="contact-form">
-                    <label for="name"> Your Name </label>
-                    <input type="text" id="name" name="name"required/><br><br>
-                    <label for="email"> Your Email </label>
-                    <input type="email" id="email" name="email" required/><br><br>
-                    <label for="message"> Your Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-                    <a href="response.html" method="get"> </a>
-                    <button type="submit"><a href="response.html" method="get"> Send Message</a></button>
-                    </form>
+
+
+
+
+
 <head>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet/dist/leaflet.css"
-  />
-  <style>
-    #map {
-      height: 500px;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="./../css/style.css">
+  <title>contact</title>
+<style>
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+    
 </head>
+
 <body>
-  <h2>Live Location Map</h2>
-  <div id="map"></div>
+  <header>
+    <div class="navbar">
+      <img src="./../images/logo_grey.jpg" alt="logo" width="100px">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="menu">
+        <li><input class="input-box" type="text" placeholder="Search"></li>
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="./../pages/menscollection.html">Men's Fashion</a></li>
+        <li><a href="#">Women's Fashion</a></li>
+        <li><a href="./../pages/contact.html">Contact</a></li>
+        <li><a href="./../pages/login.html">Login/Register</a></li>
+      </ul>
+    </div>
+  </header>
 
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
-        const lat = position.coords.latitude;
-        const lon = position.coords.longitude;
+  <div class="contact-wrapper">
+    <form class="contact-form">
+      <label for="name"> Your Name </label>
+      <input type="text" id="name" name="name" required /><br><br>
+      <label for="email"> Your Email </label>
+      <input type="email" id="email" name="email" required /><br><br>
+      <label for="message"> Your Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <a href="response.html" method="get"> </a>
+      <button type="submit"><a href="response.html" method="get"> Send Message</a></button>
+    </form>
 
-        const map = L.map('map').setView([lat, lon], 13);
+    
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
+    <h2>Live Location Map</h2>
+    <div id="map"></div>
 
-        L.marker([lat, lon]).addTo(map)
-          .bindPopup('You are here!')
-          .openPopup();
-      });
-    } else {
-      alert("Geolocation is not supported by your browser");
-    }
-  </script>
-</body>
-           <div class="contact-info">
-                        <h2> Get in Touch </h2>
-                        <p> <a href="mailto Email:contact@stylehub.com">  contact@stylehub.com </a></p>
-                        <p> <a href="tel:+91 9043989090"> click here to call us</a></p>
-                        <p> Address:123 Fashion Street, India </p>
 
-             <footer>
-         <hr style="margin-top: 50px; margin-bottom: 50px; background-color: #707070;">
+    <div class="contact-info">
+      <h2> Get in Touch </h2>
+      <p> <a href="mailto Email:contact@stylehub.com"> contact@stylehub.com </a></p>
+      <p> <a href="tel:+91 9043989090"> click here to call us</a></p>
+      <p> Address:123 Fashion Street, India </p>
 
-        
-    <div class="footer">
+      <footer>
+        <hr style="margin-top: 50px; margin-bottom: 50px; background-color: #707070;">
 
-        <div class="footer-logo">
+
+        <div class="footer">
+
+          <div class="footer-logo">
             <p class="logo-name">StyleHub.com</p>
             <p class="Copyright">© Copyright 2025 stylehub.</p>
-        </div>
+          </div>
 
-        <div class="quick-links">
+          <div class="quick-links">
 
             <p class="quick-links-font">Quick Links</p>
             <a class="link" href="#">Home</a>
             <a class="link" href="#">Men's Fashion</a>
             <a class="link" href="#">Women's Fashion</a>
             <a class="link" href="#">Contact</a>
-        </div>
+          </div>
 
-        <div class="follow-link">
+          <div class="follow-link">
             <p class="Address">A2 Janak Puri, New Delhi - 110058</p>
 
             <div class="social-media-pic">
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\facebook.png" alt="facebook-logo"></a>
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\instagram.png" alt="instagram-logo"></a>
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\pinterest.png" alt="pinterest-logo"></a>
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\twitter.png" alt="twitter-logo"></a>
+              <a href="#"><img class="social-media" src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\facebook.png"
+                  alt="facebook-logo"></a>
+              <a href="#"><img class="social-media" src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\instagram.png"
+                  alt="instagram-logo"></a>
+              <a href="#"><img class="social-media" src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\pinterest.png"
+                  alt="pinterest-logo"></a>
+              <a href="#"><img class="social-media" src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\twitter.png"
+                  alt="twitter-logo"></a>
             </div>
 
-        </div>
+          </div>
 
-    </div>
-    </footer>
+        </div>
+      </footer>
 
 </body>
 
 </html>
 </div>
 </div>
-        </div>
-         </div>
-    </div>
-    </div>
-    </header>
-    </body>
- </html>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
