@@ -59,7 +59,7 @@ Explore the Style Hub homepage and fashion sections
 
 ## Men's Fasion -
 
-![Men's Fasion](./images/mens%20fasion%20screenshot.jpeg)
+![Men's Fashion](./images/mens%20fasion%20screenshot.jpeg)
 
 ## File Structure -
 
