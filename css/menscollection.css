@@ -477,10 +477,8 @@ body {
     .quick-links {
         display: none;
     }
-    .main-content,
-.main-content-2,
-.main-content-3 {
-    margin-right: 250px;
+    .product-card{
+        margin-right: 1000px;
 }
 
 }
