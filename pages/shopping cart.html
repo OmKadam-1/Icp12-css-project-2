@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Shopping cart</title>
+<link rel="stylesheet" href="./../css/shopping cart.css">
 </head>
     <body>
-      <header>
+     <header>
         <div class="navbar">
-            <img src="../images/logo_grey.jpg" alt="logo" width="100px">
+            <img src="./../images/login page logo.png" alt="logo" width="70px">
             <input type="checkbox" id="menu-toggle" />
             <label for="menu-toggle" class="hamburger">
                 <span></span>
@@ -16,13 +17,19 @@
                 <span></span>
             </label>
             <ul class="menu">
-                <li><input class="input-box" type="text" placeholder="Search"></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Men's Fashion</a></li>
-                <li><a href="#">Women's Fashion</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login/Register</a></li>
-                <li><a href="#">shopping cart</a></li>
+                <div class="search-container">
+                    <i class="fas fa-search">
+                        <img class="search-img" src="./../images/search.png" alt="search-image">
+                    </i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./../pages/menscollection.html" >Men's Fashion</a></li>
+                <li><a href="./../pages/womenscollection.html">Women's Fashion</a></li>
+                <li><a href="./../pages/contact.html">Contact</a></li>
+                <li><a href="./../pages/login.html">Login/Register</a></li>
+                <li><a href="./../pages/shopping cart.html"><img class="cart-image" src="./../images/shopping-cart.png" alt="shopping-cart"></a></li>
+                
             </ul>
         </div>
     </header>
@@ -40,7 +47,7 @@
         <hr>
          <tr>
           <td class="product-info">
-            <img src="C:\Users\rajup\OneDrive\Desktop\Icp12-css-project-2\images\shirt1.jpeg" alt="T-shirt">
+            <img src="./../images/shirt1.jpeg" alt="T-shirt">
            <span>T-Shirt</span>
           </td>
           <td class="quantity">
@@ -52,7 +59,7 @@
         </tr>
         <tr>
             <td class="product-info">
-            <img src="C:\Users\rajup\OneDrive\Desktop\Icp12-css-project-2\images\shoes2.jpeg"alt="Shoes" />
+            <img src="./../images/shoes2.jpeg"alt="Shoes" />
             <span>Shoes</span>
           </td>
           <td class="quantity">
@@ -75,59 +82,44 @@
       <p><span>Total</span><span>&nbsp;₹1,148</span></p>
     </div>
 
-    <button class="checkout-btn">Proceed to Checkout</button>
+    <button class="checkout-btn"><a href="" style="text-decoration: none; color: white;" >Proceed to checkout</a></button>
   </div>
-</body>
-<footer>
-                <div class="reviews"><hr><br>
 
-            <span class="reviews-head">our latest reviews</span>
-            <p class="title-reviews">Treding Fashion Styles</p>
-
-            <P class="msg">Received the bag and looved it. Looking forward to buy more products from you</P>
-            <span class="name">Jethalal Gada</span>
-
-            <P class="msg">Got the bag, it looks very nice</P>
-            <span class="name">Champaklal</span>
-
-            <P class="msg">Yes it was good thanks for your efforts</P>
-            <span class="name">Aatmaram Tukaram Bhide</span>
-
-            <P class="msg">Product (handbag) is really good Nice experience shopping wih you</P>
-            <span class="name">Dr. Hathi</span>
-        </div>
-
+ <footer>
         <hr style="margin-top: 50px; margin-bottom: 50px; background-color: #707070;">
+        <div class="footer">
 
-        
-    <div class="footer">
+            <div class="footer-logo">
+                <p class="logo-name">StyleHub.com</p>
+                <p class="Copyright">© Copyright 2025 stylehub.</p>
+            </div>
 
-        <div class="footer-logo">
-            <p class="logo-name">StyleHub.com</p>
-            <p class="Copyright">© Copyright 2025 stylehub.</p>
-        </div>
+            <div class="quick-links">
 
-        <div class="quick-links">
+                <p class="quick-links-font">Quick Links</p>
+                <a class="link" href="../index.html">Home</a>
+                <a class="link" href="./../pages/menscollection.html">Men's Fashion</a>
+                <a class="link" href="./../pages/womenscollection.html">Women's Fashion</a>
+                <a class="link" href="./../pages/contact.html">Contact</a>
+            </div>
 
-            <p class="quick-links-font">Quick Links</p>
-            <a class="link" href="#">Home</a>
-            <a class="link" href="#">Men's Fashion</a>
-            <a class="link" href="#">Women's Fashion</a>
-            <a class="link" href="#">Contact</a>
-        </div>
+            <div class="follow-link">
+                <p class="Address">A2 Janak Puri, New Delhi - 110058</p>
 
-        <div class="follow-link">
-            <p class="Address">A2 Janak Puri, New Delhi - 110058</p>
+                <div class="social-media-pic">
+                    <a href="https://www.facebook.com/profile.php?id=61577747652824"><img class="social-media"
+                            src="./../images/facebook.png" alt="facebook-logo"></a>
+                    <a href="https://www.instagram.com/stylehub5420/"><img class="social-media"
+                            src="./../images/instagram.png" alt="instagram-logo"></a>
+                    <a href="https://in.pinterest.com/atharvbolke981/_profile/_created/"><img class="social-media" src="./../images/pinterest.png" alt="pinterest-logo"></a>
+                    <a href="https://x.com/?lang=en"><img class="social-media" src="./../images/twitter.png" alt="twitter-logo"></a>
+                </div>
 
-            <div class="social-media-pic">
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\facebook.2.png" alt="facebook-logo"></a>
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\insta.1.png" alt="instagram-logo"></a>
-                <a href="#"><img class="social-media"  src="c:\Users\DELL\Downloads\pinterest.1.png" alt="pinterest-logo"></a>
-                <a href="#"><img class="social-media"  src="C:\Users\DELL\Desktop\Icp12-css-project-2\images\twitter.1.png" alt="twitter-logo"></a>
             </div>
 
         </div>
-
-    </div>
     </footer>
+
+               
+    </body>
 </html>
