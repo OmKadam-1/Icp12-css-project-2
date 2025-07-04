@@ -218,7 +218,7 @@ body {
 
 
 
-/*Product card*/
+
 .products-section {
   display: flex;
   flex-wrap: wrap;
@@ -283,10 +283,7 @@ main-heading {
   cursor: pointer;
 }
 
-.card:hover {
-  margin: 5px;
-  transform: scale(02.5rem);
-}
+
 
 .info {
   display: inline-block;
