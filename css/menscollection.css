@@ -305,8 +305,8 @@ body {
 .main-content,
 .main-content-2,
 .main-content-3 {
-    margin-left: 150px;
-    margin-right: 150px;
+    
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
