@@ -473,9 +473,10 @@ body {
     .quick-links {
         display: none;
     }
-    .product-card{
+
+    .product-card {
         margin-right: 1000px;
-}
+    }
 
 }
 
