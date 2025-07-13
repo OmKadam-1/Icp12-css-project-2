@@ -402,11 +402,6 @@ body {
 .main-content,
 .main-content-2,
 .main-content-3 {
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 9ca6ef2caa72187cc541ffe1b71c728f465e5fad
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

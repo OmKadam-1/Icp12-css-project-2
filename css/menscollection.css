@@ -375,10 +375,19 @@ body {
 
 .Cart {
 
-    padding: 5px;
-    background-color: rgba(0, 128, 0, 0.623);
-    border-radius: 10px;
-    border-style: none;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    margin: 25px auto;
+    color: #fff;
+    background-color: #19c880;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    margin-top: 50px;
+    justify-content: center;
 
 }
 
