@@ -265,8 +265,6 @@ body {
   }
 }
 
-
-
 @media (max-width:760px) {
   .input-box {
     border: none;
@@ -303,7 +301,6 @@ body {
 
   transition: 0.2s;
 }
-
 
 .input-box {
   border: none;
@@ -346,7 +343,6 @@ body {
   padding: 0 20px;
 }
 
-
 .main-text {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 40px;
@@ -363,13 +359,6 @@ body {
   font-size: 1.2rem;
   margin-top: 10px;
 }
-
-
-
-
-
-
-
 
 .products-section {
   display: flex;
@@ -403,12 +392,21 @@ body {
   margin: 10px 0 5px;
 }
 
+.main-heading {
+  font-size: 25px;
+  text-align: center;
+  color: #707070;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .main-content,
 .main-content-2,
 .main-content-3 {
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9ca6ef2caa72187cc541ffe1b71c728f465e5fad
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -428,8 +426,6 @@ body {
   padding: 15px;
   cursor: pointer;
 }
-
-
 
 .info {
   display: inline-block;
@@ -467,13 +463,6 @@ body {
   display: inline-block;
 }
 
-.main-heading {
-  text-align: center;
-  color: grey;
-  border-radius: 5px;
-  font-weight: 20px;
-}
-
 .Discount {
   font-weight: 20px;
   font-size: 18px;
@@ -481,26 +470,23 @@ body {
 }
 
 .Cart {
-
-  padding: 5px;
-  background-color: rgba(0, 128, 0, 0.623);
-  border-radius: 10px;
-  border-style: none;
-
+  border: none;
+  width: 150px;
+  padding: 10px;
+  margin: 25px auto;
+  color: #fff;
+  background-color: #19c880;
+  border-radius: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
 }
 
 .Cart:hover {
-  box-shadow: 0 0 5px green;
+  background-color: #069a5d;
+  transition: 0.3s;
 }
-
-
-
-
-
-
-
-
-
 
 /*footer*/
 .footer {
